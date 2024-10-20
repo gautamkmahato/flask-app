@@ -1,6 +1,4 @@
 from flask import Flask
-from gevent.pywsgi import WSGIServer
-from dotenv import load_dotenv
 import os
 
 app = Flask(__name__)
